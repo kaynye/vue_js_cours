@@ -1,4 +1,6 @@
-import mysql from 'mysql';
+// import mysql from 'mysql';
+const mysql = require('mysql2');
+
 
 exports.getDbConnection = () =>{
     const db = mysql.createConnection({
